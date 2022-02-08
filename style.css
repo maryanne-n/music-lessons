@@ -1,3 +1,6 @@
+/* Base Reset
+   =================================================== */
+
 html {
     font-size: 16px;
     box-sizing: border-box;
@@ -29,6 +32,9 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
+/* Nav styles
+   =================================================== */
 
 .header {
   height: 80px;
