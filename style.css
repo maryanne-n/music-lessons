@@ -174,7 +174,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center; */
   width: 100%;
-  max-width: 1540px;
+  max-width: 1280px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 30px;
   margin: 0 auto;
