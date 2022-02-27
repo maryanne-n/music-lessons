@@ -45,7 +45,7 @@ img {
 body {
   font-family: 'Open Sans';
   margin: 0 auto;
-  height: 100vh;
+  /* height: 100vh; */
   /* width: 100vw; */
 }
 
@@ -108,7 +108,9 @@ nav {
 .hero-container {
   background: var(--midnight-purple);
   height: 1px;
-  min-height: 600px;  
+  min-height: 600px;
+  padding-bottom: 40px;  
+  /* display: flex; */
 }
 
 .hero {
@@ -118,8 +120,8 @@ nav {
   width: 85%;
   max-width: 1440px;
   gap: 40px;
-  height: 100%;
-  /* max-height: 1000px; */
+  min-height: 600px;
+  height: 1px;
   align-items: center;
 }
 
@@ -129,7 +131,6 @@ nav {
   flex: 2;
   color: white;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .hero-left .btn {
@@ -177,11 +178,14 @@ nav {
     padding: 0;  
     margin: 0;  
     width: 100%;
+    /* min-height: 600px; */
+    height: max-content;
   }
 
   .hero-container {    
-    height: 1px;
-    min-height: 900px;  
+    
+    /* overflow: auto; */
+    height: max-content; 
     /* max-height: 1500px; */
   }
 
@@ -189,10 +193,16 @@ nav {
     order: 1;
     text-align: center;
     align-items: center;
+    flex: auto;
+    min-height: 300px;
+    align-contents: center;
+    padding: 0 40px 0;
+    /* margin-bottom: 40px; */
   }
 
   .hero-img-container {
     height: 300px;
+    flex: auto;
   }
   
 }
