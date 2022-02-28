@@ -190,6 +190,7 @@ nav {
     margin: 0;  
     width: 100%;
     height: max-content;
+    /* gap: 60px; */
   }
 
   .hero-container {    
@@ -203,7 +204,7 @@ nav {
     flex: auto;
     min-height: 300px;
     align-contents: center;
-    padding: 0 40px 40px;
+    padding: 0 40px 80px;
   }
 
   .hero-img-container {
