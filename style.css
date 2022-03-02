@@ -96,6 +96,7 @@ nav {
   height: 80%;
   width: auto;
   vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -107,9 +108,54 @@ nav {
   gap: 40px;
 }
 
+.header-links li {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+}
+
 .link {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 0 30px;
+  }
+
+  .header-links {
+    gap: 20px;
+  }
+}
+
+nav .icon {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 0 30px;
+  }
+
+  .header-links {
+    gap: 20px;
+  }
+
+  nav .icon:not(:first-child) {
+    display: none;
+  }
+  
+  nav .icon {
+    display: block;
+    float: right;
+  }
+
+  nav .header-links {
+    display: none;
+  }
 }
 
 .hero-container {
