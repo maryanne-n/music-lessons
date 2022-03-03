@@ -131,6 +131,8 @@ nav {
 
 nav .icon {
   display: none;
+  color: white;
+  font-size: 18px;
 }
 
 
@@ -145,16 +147,29 @@ nav .icon {
   }
 
   nav .icon:not(:first-child) {
-    display: none;
+    /* display: none; */
   }
   
   nav .icon {
     display: block;
     float: right;
+    padding: 16px;
   }
 
   nav .header-links {
     display: none;
+  }
+
+  .header.responsive {
+    height: 220px;
+  }
+
+  .header-links.responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 90px;
   }
 }
 

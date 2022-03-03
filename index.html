@@ -9,19 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
+    <div id="myHeader" class="header">
         <nav>
             <a href="#" class="logo-holder"><img src="images/logo_rev.png" alt="logo" class="logo"></a>
-            <ul class="header-links">
+            <ul id ="myMenu" class="header-links">
                 <li><a class="link" href="#">Studio Information</a></li>
                 <li><a class="link" href="#">Guides</a></li>
                 <li><a class="link" href="#">Contact</a></li>
             </ul>
-            <a href="javascript:void(0);" class="icon" onclick="openMenu">
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
@@ -87,5 +87,19 @@
         <p class="credits">Made with &#128151; by <a target="_blank" href="https://www.linkedin.com/in/mary-anne-ng/">Mary-Anne</a> 2022<br>
         For <a target="_blank" href="https://www.theodinproject.com">The Odin Project &copy; 2021</a></p>
     </div>
+
+    <script>
+        function openMenu() {
+            let x = document.getElementById("myMenu");
+            let y = document.getElementById("myHeader");
+            if (x.className === "header-links") {
+                x.className += " responsive";
+                y.className += " responsive";
+            } else {
+                x.className = "header-links";
+                y.className += "header";
+            }
+        }
+    </script>
 </body>
 </html>
