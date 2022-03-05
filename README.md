@@ -10,7 +10,7 @@ Note: Responsive styles have been applied. In order to view the page layout that
 
 :boom: Live demo is up as of 6 March 2022! :boom:
 
-##### Image Credits
+#### Image Credits
 
 <a href="https://www.freepik.com/photos/music">Music photo created by wavebreakmedia_micro - www.freepik.com</a>  
 <a href='https://www.freepik.com/photos/pattern'>Pattern photo created by Racool_studio - www.freepik.com</a>  
