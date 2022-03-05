@@ -66,10 +66,9 @@ body {
   }
 }
 
-/* Nav styles
-   =================================================== */
-
-
+/* =================================================== */
+/* Nav styles ======================================== */
+/* =================================================== */
 
   
 .header {
@@ -109,7 +108,6 @@ nav {
 }
 
 .header-links li {
-  /* text-align: center; */
   display: flex;
   align-items: center;
 }
@@ -135,7 +133,9 @@ nav .icon {
   font-size: 18px;
 }
 
-
+/* =================================================== */
+/* Mobile nav styles ================================= */
+/* =================================================== */
 
 @media screen and (max-width: 500px) {
   nav {
@@ -146,10 +146,6 @@ nav .icon {
     gap: 20px;
   }
 
-  nav .icon:not(:first-child) {
-    /* display: none; */
-  }
-  
   nav .icon {
     display: block;
     float: right;
@@ -173,12 +169,14 @@ nav .icon {
   }
 }
 
+/* =================================================== */
+/* Hero section ====================================== */
+/* =================================================== */
+
 .hero-container {
   background: var(--midnight-purple);
   height: 1px;
   min-height: 600px;
-  /* padding-bottom: 40px;   */
-  /* display: flex; */
 }
 
 .hero {

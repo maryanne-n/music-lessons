@@ -6,9 +6,9 @@ Here is the visual brief:
 
 ![TOP Landing Page Visual Brief](/images/odin-project.png)
 
-Note: Responsive styles have been applied. In order to view the page layout that reflects the brief, please ensure your browser size is a minimum of 1160px width.
+Note: Responsive styles have been applied. In order to view the page layout that reflects the brief, please ensure your browser size is a minimum of 1140px width.
 
-:zap: Live demo coming soon! :zap:
+:boom: Live demo is up as of 6 March 2022! :boom:
 
 ##### Image Credits
 
