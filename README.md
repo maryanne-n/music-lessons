@@ -15,3 +15,5 @@ Note: Responsive styles have been applied. In order to view the page layout that
 <a href="https://www.freepik.com/photos/music">Music photo created by wavebreakmedia_micro - www.freepik.com</a>
 <a href='https://www.freepik.com/photos/pattern'>Pattern photo created by Racool_studio - www.freepik.com</a>
 <a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>
+
+Hero image &copy; Mary-Anne 2021.

@@ -1,5 +1,7 @@
-/* Base Reset
-   =================================================== */
+/* =================================================== */
+/* Base reset & style ================================ */
+/* =================================================== */
+
 :root {
   --off-white: #F5F4F4;
   --light-gray: #8A93A5;
@@ -69,7 +71,6 @@ body {
 /* =================================================== */
 /* Nav styles ======================================== */
 /* =================================================== */
-
   
 .header {
 height: 80px;
@@ -249,7 +250,6 @@ nav .icon {
     margin: 0;  
     width: 100%;
     height: max-content;
-    /* gap: 60px; */
   }
 
   .hero-container {    
@@ -272,8 +272,10 @@ nav .icon {
   }  
 }
 
-/* Features Section
-   =================================================== */
+/* =================================================== */
+/* Features section ================================== */
+/* =================================================== */
+
 .features-container {
   padding: 80px 40px 80px;
 }
@@ -287,9 +289,6 @@ nav .icon {
 .features {
   display: grid;
   justify-content: center;
-  /* flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; */
   width: 100%;
   max-width: 1280px;
   grid-template-columns: repeat(4, 220px);
@@ -339,7 +338,6 @@ nav .icon {
 
 .quote-container {
   width: 100%;
-  /* height: 250px; */
   position: relative;
 }
 
@@ -348,9 +346,9 @@ nav .icon {
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 0;
   background: var(--midnight-purple);
   opacity: 0.2;
+  z-index: -1;
 }
 
 .quote-container p {
@@ -390,9 +388,13 @@ nav .icon {
   }
 }
 
+/* =================================================== */
+/* CTA section ======================================= */
+/* =================================================== */
+
 .cta-section {
   margin: 80px auto;
-  padding: 0 80px;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -404,7 +406,7 @@ nav .icon {
   min-width: 800px;
   padding: 40px 40px;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 6px;
 } 
 
 .cta-text {
@@ -466,9 +468,13 @@ nav .icon {
   }
 }
 
+/* =================================================== */
+/* Footer ============================================ */
+/* =================================================== */
+
 .footer {
   background: var(--midnight-purple);
-  padding: 24px;
+  padding: 20px;
 }
 
 .credits {
@@ -485,4 +491,14 @@ nav .icon {
 
 .credits a:hover {
   color: var(--main-rose)
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 16px;
+  }
+
+  .credits {
+    font-size: 14px;
+  }
 }
