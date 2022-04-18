@@ -8,7 +8,7 @@ Here is the visual brief:
 
 Note: Responsive styles have been applied. In order to view the page layout that reflects the brief, please ensure your browser size is a minimum of 1140px width.
 
-:boom: Live demo is up as of 6 March 2022! :boom:
+:boom: Live demo is up as of 6 March 2022! [Here's the site](https://https://music-lessons.netlify.app/). :boom:
 
 ### Image Credits
 
